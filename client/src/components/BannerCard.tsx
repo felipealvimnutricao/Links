@@ -35,7 +35,7 @@ export default function BannerCard({
       }}
     >
       {/* Background Image */}
-      <div className="relative h-64 md:h-80 overflow-hidden">
+      <div className="relative h-auto md:h-80 overflow-hidden">
         <img
           src={image}
           alt={title}
