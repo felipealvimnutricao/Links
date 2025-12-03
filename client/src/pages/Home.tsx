@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className="flex-1">
         <section className="py-8 md:py-12">
-          <div className="max-w-5xl mx-auto px-4">
+          <div className="max-w-5xl mx-auto px-2 sm:px-4">
             <div className="space-y-6 md:space-y-8">
               {banners.map((banner, index) => (
                 <BannerCard
