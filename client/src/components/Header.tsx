@@ -10,7 +10,7 @@ export default function Header() {
       transition={{ duration: 0.6 }}
       className="border-b border-border/30 bg-background/95 backdrop-blur-sm"
     >
-      <div className="max-w-4xl mx-auto px-4 py-8 md:py-12">
+      <div className="max-w-4xl mx-auto px-2 sm:px-4 py-8 md:p
         <h1 className="text-center text-4xl md:text-5xl font-bold mb-4 text-foreground">
           {siteInfo.name}
         </h1>
