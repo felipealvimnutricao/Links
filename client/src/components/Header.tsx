@@ -5,12 +5,12 @@ import { contactInfo, siteInfo } from '@/config/banners';
 export default function Header() {
   return (
     <motion.header
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
       className="border-b border-border/30 bg-background/95 backdrop-blur-sm"
     >
-      <div className="w-full px-4 py-8 md:py-12">
+      <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
         <h1 className="text-center text-4xl md:text-5xl font-bold mb-4 text-foreground">
           {siteInfo.name}
         </h1>
