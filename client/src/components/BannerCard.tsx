@@ -22,7 +22,7 @@ export default function BannerCard({
       whileHover={{ scale: 1.02 }}
       className="group relative block overflow-hidden rounded-lg bg-card text-card-foreground transition-all duration-300 hover:shadow-2xl border-2 border-primary/30"
     >
-      <div className="relative h-48 md:h-96 w-full overflow-hidden">
+      <div className="relative h-40 md:h-96 w-full overflow-hidden">
         <img
           src={image}
           alt={title}
