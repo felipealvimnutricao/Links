@@ -27,7 +27,7 @@ export default function Footer() {
         {/* Content */}
         <div className="text-center">
           <p className="text-sm text-muted-foreground mb-2">
-            © 2024 Felipe Alvim - Nutricionista
+            Felipe Alvim
           </p>
           <p className="text-xs text-muted-foreground/70 mb-4">
             {siteInfo.footerSubtext}
