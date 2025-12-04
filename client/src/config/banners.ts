@@ -91,6 +91,6 @@ export const siteInfo = {
   heroDescription: 'Clique no banner para ser redirecionado(a)',
   ctaTitle: 'Pronto para começar?',
   ctaDescription: 'Escolha uma das opções acima e comece sua jornada de transformação hoje mesmo.',
-  footerText: 'Feito por Alvim Automações',
+  footerText: 'Feito por <a href="https://www.instagram.com/alvimautomacoes" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Alvim Automações</a>',
   footerSubtext: 'Transformando vidas através da nutrição',
 };
