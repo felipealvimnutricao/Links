@@ -27,10 +27,20 @@ export default function Footer() {
         {/* Content */}
         <div className="text-center">
           <p className="text-sm text-muted-foreground mb-2">
-            {siteInfo.footerText}
+            © 2024 Felipe Alvim - Nutricionista
+          </p>
+          <p className="text-xs text-muted-foreground/70 mb-4">
+            {siteInfo.footerSubtext}
           </p>
           <p className="text-xs text-muted-foreground/70">
-            {siteInfo.footerSubtext}
+            <a
+              href={siteInfo.alvimAutomacoes}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 hover:underline transition-colors"
+            >
+              {siteInfo.footerText}
+            </a>
           </p>
         </div>
 
